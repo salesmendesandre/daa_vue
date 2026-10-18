@@ -1,0 +1,63 @@
+format: jb-book
+root: intro.md
+
+parts:
+  - caption: Requisitos Previos
+    chapters:
+      - file: vue/p0c0_requisitos_previos.md
+  - caption: Parte I – Fundamentos de Vue.js
+    chapters:
+      - file: vue/p1c1_introduccion_a_vue.md
+      - file: vue/p1c2_configuracion_y_componentes.md
+      - file: vue/p1c3_plantillas_y_directivas.md
+
+  - caption: Parte II – Mecanismos Reactivos y Ciclo de Vida
+    chapters:
+      - file: vue/p2c4_estilos_api.md
+      - file: vue/p2c5_ciclo_de_vida_y_computed.md
+      - file: vue/p2c6_manejo_de_formularios.md
+
+#  - caption: Parte III – Temas Avanzados en Vue
+#    chapters:
+#    - file: vue/p3c7_componentes_avanzados.md
+#    - file: vue/p3c8_ecosistema_vue.md
+
+  - caption: Parte III – Ecosistema y Libreria de Componentes (PrimeVue)
+    chapters:
+    - file: vue/p3c7_ruteo_y_estado_global.md
+    - file: vue/p3c8_prime_vue.md
+    - file: vue/p3c9_prime_vue_forms.md
+
+  - caption: Parte IV – Firebase como Backend
+    chapters:
+    - file: vue/p4c10_firebase_auth_firestore.md
+    - file: vue/p4c11_firebase_firestore.md
+    - file: vue/p4c12_firebase_images_in_firestore.md
+    - file: vue/p4c13_firebase_firestore_rules.md
+
+  - caption: Parte V - Despliegue en Producción
+    chapters:
+    - file: vue/p5c14_deploy.md
+
+  - caption: Parte VI - Diseño de APIs con Node.js y Express
+    chapters:
+    - file: vue/p6c15_node_express.md
+    - file: vue/p6c16_api_rest.md
+    - file: vue/p6c17_producto_mongoose.md
+    - file: vue/p6c18_04_auth_jwt.md
+    - file: vue/p6c19_05_upload_multer.md
+
+#  - caption: Parte IV – Temas Avanzados en Vue.js
+
+#    - file: vue/p4c10_formularios_validaciones_y_estilos.md
+#    - file: vue/p4c11_comunicacion_con_apis.md
+#    - file: vue/p4c12_aplicaciones_moviles.md
+
+#  - caption: Parte V – Proyecto Final
+#    chapters:
+#    - file: vue/p5c13_proyecto_final.md
+#    - file: vue/p5c14_testing_y_optimizacion.md
+
+
+
+

@@ -1,0 +1,47 @@
+{
+  "title": "Desarrollo de Aplicaciones Multiplataforma con Vue",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "description": "<p>Libro de texto abierto sobre el desarrollo de aplicaciones web con <strong>Vue 3</strong>. Es el material de la parte de desarrollo de aplicaciones multiplataforma con Vue de la asignatura <em>Desarrollo de Aplicaciones Avanzadas</em>, optativa de cuarto curso del Grado en Ingeniería Informática de la Universidad de Salamanca.</p><p>Cubre requisitos previos, fundamentos de Vue (componentes, plantillas y directivas), Options API y Composition API, ciclo de vida y reactividad, formularios, Vue Router y Pinia, la librería de componentes PrimeVue, Firebase como backend (Authentication, Firestore y reglas de seguridad), build y despliegue, y el diseño de APIs con Node.js, Express, MongoDB/Mongoose, autenticación JWT y subida de archivos con Multer.</p><p>Este depósito contiene las fuentes del libro (Markdown, TeachBooks/Jupyter Book). La versión web está disponible en <a href=\"https://salesmendesandre.github.io/daa_vue/main/intro.html\">https://salesmendesandre.github.io/daa_vue/main/intro.html</a> y el código de los ejemplos se publica en un depósito complementario (<a href=\"https://github.com/salesmendesandre/daa_vue_examples\">daa_vue_examples</a>).</p>",
+  "creators": [
+    {
+      "name": "Sales Mendes, André Filipe",
+      "affiliation": "Universidad de Salamanca",
+      "orcid": "0000-0003-0976-2784"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "spa",
+  "version": "1.0.0",
+  "keywords": [
+    "Vue.js",
+    "Vue 3",
+    "Composition API",
+    "Pinia",
+    "Vue Router",
+    "PrimeVue",
+    "Firebase",
+    "Node.js",
+    "Express",
+    "MongoDB",
+    "JWT",
+    "desarrollo web",
+    "aplicaciones multiplataforma",
+    "material docente",
+    "recurso educativo abierto"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/salesmendesandre/daa_vue_examples",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://salesmendesandre.github.io/daa_vue/main/intro.html",
+      "relation": "isIdenticalTo",
+      "resource_type": "publication-book"
+    }
+  ],
+  "notes": "Material de terceros excluido de la licencia CC BY 4.0: el logotipo de Vue.js usado como favicon (book/figures/Vue_favicon.ico) es obra de Evan You y se distribuye bajo CC BY-NC-SA 4.0 (https://github.com/vuejs/art), cuyo uso en libros con fines educativos está permitido expresamente."
+}

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 540" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Ciclo de vida de un componente Vue 3</title>
+  <desc id="d">Creación con setup(); montaje con onBeforeMount, render inicial y onMounted; bucle de actualización con onBeforeUpdate, re-render y onUpdated; desmontaje con onBeforeUnmount, eliminación del DOM y onUnmounted.</desc>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#475569"/>
+    </marker>
+    <style>
+      .phase{font-size:13px;font-weight:700;letter-spacing:.08em;fill:#64748b}
+      .hook{fill:#e8f5ee;stroke:#42b883;stroke-width:2}
+      .step{fill:#f1f5f9;stroke:#94a3b8;stroke-width:1.5;stroke-dasharray:5 4}
+      .state{fill:#35495e}
+      .h{font-size:16px;font-weight:600;fill:#1f6f4a;font-family:'JetBrains Mono',Menlo,Consolas,monospace}
+      .s{font-size:15px;fill:#334155}
+      .w{font-size:16px;font-weight:600;fill:#fff}
+      .n{font-size:13px;fill:#64748b}
+      .l{stroke:#475569;stroke-width:2;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="1000" height="540" fill="#ffffff"/>
+
+  <!-- Creación -->
+  <text class="phase" x="40" y="40">CREACIÓN</text>
+  <rect class="hook" x="40" y="60" width="190" height="56" rx="10"/>
+  <text class="h" x="135" y="94" text-anchor="middle">setup()</text>
+  <text class="n" x="135" y="138" text-anchor="middle">estado reactivo, computed,</text>
+  <text class="n" x="135" y="155" text-anchor="middle">watchers y registro de hooks</text>
+
+  <!-- Montaje -->
+  <text class="phase" x="280" y="40">MONTAJE</text>
+  <rect class="hook" x="280" y="60" width="190" height="56" rx="10"/>
+  <text class="h" x="375" y="94" text-anchor="middle">onBeforeMount</text>
+  <rect class="step" x="510" y="60" width="190" height="56" rx="10"/>
+  <text class="s" x="605" y="86" text-anchor="middle">render inicial y</text>
+  <text class="s" x="605" y="104" text-anchor="middle">creación del DOM</text>
+  <rect class="hook" x="740" y="60" width="190" height="56" rx="10"/>
+  <text class="h" x="835" y="94" text-anchor="middle">onMounted</text>
+  <path class="l" d="M230 88 H274"/>
+  <path class="l" d="M470 88 H504"/>
+  <path class="l" d="M700 88 H734"/>
+
+  <!-- Estado montado -->
+  <path class="l" d="M835 116 V186"/>
+  <rect class="state" x="740" y="192" width="190" height="56" rx="28"/>
+  <text class="w" x="835" y="226" text-anchor="middle">Montado</text>
+
+  <!-- Actualización (bucle) -->
+  <text class="phase" x="280" y="186">ACTUALIZACIÓN</text>
+  <text class="n" x="280" y="204">se repite cada vez que cambia un dato reactivo</text>
+  <path class="l" d="M740 230 H375 V294"/>
+  <rect class="hook" x="280" y="300" width="190" height="56" rx="10"/>
+  <text class="h" x="375" y="334" text-anchor="middle">onBeforeUpdate</text>
+  <rect class="step" x="510" y="300" width="190" height="56" rx="10"/>
+  <text class="s" x="605" y="326" text-anchor="middle">re-render y</text>
+  <text class="s" x="605" y="344" text-anchor="middle">parcheo del DOM</text>
+  <rect class="hook" x="740" y="300" width="190" height="56" rx="10"/>
+  <text class="h" x="835" y="334" text-anchor="middle">onUpdated</text>
+  <path class="l" d="M470 328 H504"/>
+  <path class="l" d="M700 328 H734"/>
+  <path class="l" d="M835 300 V254"/>
+
+  <!-- Desmontaje -->
+  <text class="phase" x="40" y="388">DESMONTAJE</text>
+  <path class="l" d="M930 220 H965 V400 H135 V434"/>
+  <text class="n" x="955" y="390" text-anchor="end">el componente se elimina (v-if, cambio de ruta…)</text>
+  <rect class="hook" x="40" y="440" width="190" height="56" rx="10"/>
+  <text class="h" x="135" y="474" text-anchor="middle">onBeforeUnmount</text>
+  <rect class="step" x="280" y="440" width="190" height="56" rx="10"/>
+  <text class="s" x="375" y="466" text-anchor="middle">eliminación del DOM</text>
+  <text class="s" x="375" y="484" text-anchor="middle">y de los efectos</text>
+  <rect class="hook" x="510" y="440" width="190" height="56" rx="10"/>
+  <text class="h" x="605" y="474" text-anchor="middle">onUnmounted</text>
+  <path class="l" d="M230 468 H274"/>
+  <path class="l" d="M470 468 H504"/>
+
+  <!-- Leyenda -->
+  <rect class="hook" x="740" y="446" width="22" height="16" rx="4"/>
+  <text class="n" x="770" y="459">hook disponible</text>
+  <rect class="step" x="740" y="474" width="22" height="16" rx="4"/>
+  <text class="n" x="770" y="487">trabajo interno de Vue</text>
+</svg>

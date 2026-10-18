@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: 'Desarrollo de Aplicaciones Multiplataforma con Vue'
+message: 'Si utilizas este libro, cítalo usando estos metadatos.'
+type: software
+authors:
+  - given-names: André Filipe
+    family-names: Sales Mendes
+    email: andremendes@usal.es
+    affiliation: Universidad de Salamanca
+    orcid: 'https://orcid.org/0000-0003-0976-2784'
+version: 1.0.0
+url: 'https://salesmendesandre.github.io/daa_vue/main/intro.html'
+repository-code: 'https://github.com/salesmendesandre/daa_vue'
+license: CC-BY-4.0
+preferred-citation:
+  type: book
+  title: 'Desarrollo de Aplicaciones Multiplataforma con Vue'
+  authors:
+    - given-names: André Filipe
+      family-names: Sales Mendes
+      email: andremendes@usal.es
+      affiliation: Universidad de Salamanca
+      orcid: 'https://orcid.org/0000-0003-0976-2784'
+  institution:
+    name: Universidad de Salamanca
+  url: 'https://salesmendesandre.github.io/daa_vue/main/intro.html'
+  identifiers:
+    - type: url
+      value: 'https://salesmendesandre.github.io/daa_vue/main/intro.html'
+      description: 'Libro publicado en GitHub Pages'
+    - type: url
+      value: 'https://github.com/salesmendesandre/daa_vue'
+      description: 'Repositorio del libro'
+    - type: url
+      value: 'https://github.com/salesmendesandre/daa_vue_examples'
+      description: 'Repositorio con los proyectos de ejemplo'
+  abstract: >-
+    Material de la parte de desarrollo de aplicaciones multiplataforma con
+    Vue 3 de la asignatura Desarrollo de Aplicaciones Avanzadas, optativa de
+    cuarto curso del Grado en Ingeniería Informática de la Universidad de
+    Salamanca. Cubre fundamentos de Vue,
+    reactividad, Vue Router, Pinia, PrimeVue, Firebase, despliegue y APIs con
+    Node.js, Express, MongoDB, JWT y Multer.
+  keywords:
+    - Vue.js
+    - Vue 3
+    - Pinia
+    - PrimeVue
+    - Firebase
+    - Node.js
+    - Express
+    - MongoDB
+  license: CC-BY-4.0
+  license-url: 'https://creativecommons.org/licenses/by/4.0/'
+  edition: '1.0.0'
+  languages:
+    - es
