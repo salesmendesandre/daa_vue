@@ -1,5 +1,7 @@
 # Desarrollo de Aplicaciones Multiplataforma con Vue
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23451116.svg)](https://doi.org/10.5281/zenodo.23451116)
+
 <p align="center">
   <img src="book/figures/Cover.png" alt="Portada del libro Desarrollo de Aplicaciones Multiplataforma con Vue" width="40%" />
 </p>
@@ -12,7 +14,7 @@ Material de la parte de desarrollo de aplicaciones multiplataforma con **Vue 3**
 
 Este repositorio contiene **solo el texto del libro**. Todos los proyectos de ejemplo que se desarrollan capítulo a capítulo están en un repositorio aparte:
 
-👉 **[salesmendesandre/daa_vue_examples](https://github.com/salesmendesandre/daa_vue_examples)**
+👉 **[salesmendesandre/daa_vue_examples](https://github.com/salesmendesandre/daa_vue_examples)** · DOI: [10.5281/zenodo.23451114](https://doi.org/10.5281/zenodo.23451114)
 
 Cada fragmento de código del libro termina con un enlace `Fuente:` que apunta al archivo correspondiente de ese repositorio. Para trabajar con los ejemplos:
 
@@ -76,9 +78,17 @@ El workflow [`call-deploy-book.yml`](.github/workflows/call-deploy-book.yml) com
 
 Las erratas y sugerencias son bienvenidas: abre un [issue](https://github.com/salesmendesandre/daa_vue/issues) o usa el botón de edición de cualquier página del libro para proponer un cambio. Los fallos en el código de los ejemplos van al [repositorio de ejemplos](https://github.com/salesmendesandre/daa_vue_examples/issues).
 
-## Licencia y cita
+## Cómo citar
 
-El contenido del libro se publica bajo licencia [CC BY 4.0](LICENSE). Para citarlo, usa los metadatos de [`CITATION.cff`](CITATION.cff).
+Si utilizas este libro, cítalo así:
+
+> Sales Mendes, A. F. (2026). *Desarrollo de Aplicaciones Multiplataforma con Vue*. Universidad de Salamanca. Zenodo. https://doi.org/10.5281/zenodo.23451116
+
+El DOI [10.5281/zenodo.23451116](https://doi.org/10.5281/zenodo.23451116) apunta siempre a la última versión; en [Zenodo](https://doi.org/10.5281/zenodo.23451116) tienes el DOI de cada versión concreta. Los metadatos completos están en [`CITATION.cff`](CITATION.cff) (botón *Cite this repository* de GitHub).
+
+## Licencia
+
+El contenido del libro se publica bajo licencia [CC BY 4.0](LICENSE).
 
 Queda excluido de esta licencia el logotipo de Vue.js usado como favicon (`book/figures/Vue_favicon.ico`), obra de Evan You distribuida bajo [CC BY-NC-SA 4.0](https://github.com/vuejs/art), que permite expresamente su uso en libros con fines educativos.
 

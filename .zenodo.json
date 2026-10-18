@@ -13,7 +13,7 @@
   "license": "cc-by-4.0",
   "access_right": "open",
   "language": "spa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "Vue.js",
     "Vue 3",
@@ -33,7 +33,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/salesmendesandre/daa_vue_examples",
+      "identifier": "10.5281/zenodo.23451114",
       "relation": "isSupplementedBy",
       "resource_type": "software"
     },
